@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 export default function RegisterView() {
     return (
         <>
-    
-            <nav>
+            <h1 className="text-4xl text-white">
+                Register
+            </h1>
+            <nav className="mt-10">
 
-                <Link to="/auth/login">Login</Link>
+                <Link className="text-center text-white text-lg block"
+                    to="/auth/login">Login</Link>
 
             </nav>
         </>
